@@ -1,8 +1,15 @@
 {
-  "name": "my-storybook",
-  "private": true,
-  "version": "0.0.0",
+  "name": "rr-my-storybook-components",
+  "private": false,
+  "version": "0.1.0",
   "type": "module",
+  "license": "MIT",
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/romerorei/storybook-components",
+    "type": "git"
+  },
   "scripts": {
     "dev": "vite",
     "run": "npm run storybook",
